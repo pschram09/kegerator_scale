@@ -1,6 +1,7 @@
 //Scale project
 //Set up a scale to monitor beer levels
 //ESP32 with HX711 load cell amplifier
+// I strongly recommend using V1
 
 #include <WiFi.h>
 #include "HX711.h"
@@ -135,3 +136,4 @@ void loop() {
     client.stop();
   }
 }
+
